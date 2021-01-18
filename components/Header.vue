@@ -4,7 +4,7 @@
       <div class="px-10 flex justify-between items-center">
           <div class="logo">
             <nuxt-link to="/">
-                <h1 class="text-2xl font-semibold text-gray-700"> <span class="text-primary font-bold">John</span>Smith.</h1>
+                <h1 class="text-2xl font-semibold text-gray-700"> <span class="text-primary font-bold">mono</span>tone.</h1>
             </nuxt-link>
           </div>
       
@@ -13,6 +13,7 @@
             <nuxt-link class="nav-link hover:text-primary" to="blog">Blog</nuxt-link>
             <nuxt-link class="nav-link hover:text-primary" to="about">About</nuxt-link>
             <nuxt-link class="nav-link hover:text-primary" to="contact">Contact</nuxt-link>
+            <nuxt-link class="nav-link hover:text-primary" to="credits">Credits</nuxt-link>
           </div>
 
           <div class="ml-3 flex md:hidden">

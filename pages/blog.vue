@@ -3,6 +3,7 @@
     <div class="text-center mt-2 border-b-2 pb-3">
       <h3 class="text-xl md:text-2xl lg:text-3xl text-gray-700 font-semibold">Welcome to my blog.</h3>
     </div>
+    <Search />
     <div class="my-10 bg-gray-100 p-4 md:p-6 rounded-xl shadow-md" v-for="post of posts" :key="post.slug">
       <div class="flex justify-between items-center">
         <span class="font-semibold text-gray-600 text-sm">{{ formatDate(post.createdAt) }}</span>
@@ -24,7 +25,11 @@
 </template>
 
 <script>
+import Search from '../components/Search.vue'
 export default {
+  components:{
+    Search
+  },
   methods:{
     formatDate(date) {
       const options = { year: 'numeric', month: 'long', day: 'numeric' }
