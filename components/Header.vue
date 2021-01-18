@@ -41,6 +41,8 @@
             </nuxt-link>
             <nuxt-link to="contact" class="mt-1 mobile-link focus:outline-none hover:text-gray-500">
               Contact</nuxt-link>
+            <nuxt-link to="credits" class="mt-1 mobile-link focus:outline-none hover:text-gray-500">
+              Credits</nuxt-link>
         </div>
     </div>
   </div>
