@@ -5,55 +5,42 @@
       <Social />
     </div>
 
-    <div class="mt-16">
-        <div class="flex justify-center items-center text-base font-semibold text-gray-600">
-          <h4 class="text-center">Featured Projects </h4>
-          <i class='bx bx-chevrons-down ml-1 mt-1'></i>
-        </div>
+    <div class="pt-64">
+      <div
+        class="flex justify-center items-center text-base font-semibold text-gray-600"
+      >
+        <h4 class="text-center">Recent Work</h4>
+        <i class="bx bx-chevrons-down ml-1 mt-1"></i>
+      </div>
 
-        <div>
-          <Projects />
-        </div>
+      <div>
+        <Projects />
+      </div>
     </div>
-
-    
-
-    <div class="mt-16 md:mt-24">
-        <div class="flex justify-center items-center text-base font-semibold text-gray-600">
-          <h4 class="text-center">Tech stack I use.</h4>
-          <i class='bx bx-chevrons-down ml-1 mt-1'></i>
-        </div>
-
-        <div>
-          <TechStack />
-        </div>
-    </div>
-
-    
-
-
   </div>
 </template>
 
 <script>
-  import Hero from '../components/Hero.vue'
-  import Social from '../components/Social.vue'
-  import Projects from '../components/Projects.vue'
-  import TechStack from '../components/TechStack.vue'
-  
+import Hero from "../components/Hero.vue";
+import Social from "../components/Social.vue";
+import Projects from "../components/Projects.vue";
+import GoodThings from "../components/GoodThings.vue";
 
-    export default {
-      components:{
-        Hero, Social, Projects, TechStack
-      },
-      head() {
-        return {
-          script: [{ src: 'https://identity.netlify.com/v1/netlify-identity-widget.js' }],
-        };
-      },
+export default {
+  components: {
+    Hero,
+    Social,
+    Projects,
+    GoodThings
+  },
+  head() {
+    return {
+      script: [
+        { src: "https://identity.netlify.com/v1/netlify-identity-widget.js" }
+      ]
     };
+  }
+};
 </script>
 
-<style>
-
-</style>
+<style></style>
