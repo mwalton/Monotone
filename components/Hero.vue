@@ -2,7 +2,7 @@
   <div class="text-center text-gray-700 mb-8">
     <div class="pt-16 pb-4">
       <img
-        src="~/assets/avatar.jpeg"
+        src="~/assets/avatar4.jpg"
         class="rounded-full mx-auto object-center"
         width="200"
         alt="mwalton"
@@ -13,11 +13,11 @@
       Michael Walton
     </h4>
     <h3 class="text-lg lg:text-xl text-gray-800">
-      PhD Student @ ČVUT Prague
+      PhD Student @ CTU AI Center
     </h3>
     <div class="wrapper text-center pt-5">
       <h2 class="text-lg lg:text-xl text-gray-500">
-        AI • Reinforcement Learning • Game Theory
+        ai • reinforcement learning • game theory
       </h2>
     </div>
   </div>

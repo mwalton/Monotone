@@ -1,25 +1,20 @@
 <template>
   <div>
-    <nav class="wrapper py-3 border-b-2">
+    <nav class="wrapper py-4 border-b-2">
       <div class="px-8 flex justify-between items-center">
         <div class="logo">
           <nuxt-link to="/">
             <div>
               <img
-                src="~/assets/logo.svg"
-                width="400"
-                alt="{τhϵorγ} & praxis()"
+                src="~/assets/logo_sm_dg.png"
+                class="object-scale-down w-24 h-full"
+                alt="Mike Walton"
               />
             </div>
-            <!-- <h1 class="text-gray-700">
-              <span class="text-primary text-3xl font-serif">{τhϵorγ}</span
-              ><span class="text-2xl font-serif"> &</span>
-              <span class="font-mono text-2xl">praxis( )</span>
-            </h1> -->
           </nuxt-link>
         </div>
 
-        <div class="navbar hidden md:block">
+        <div class="hidden md:block">
           <nuxt-link class="nav-link hover:text-primary" to="portfolio"
             >Portfolio</nuxt-link
           >
