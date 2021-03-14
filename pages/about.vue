@@ -13,8 +13,8 @@
       aperiam magnam blanditiis. At ratione facere rerum officia veniam ipsa
       repudiandae numquam temporibus quo ipsam.
     </p>
-    <div class="mt-16">
-      <div
+    <!-- <div class="mt-16"> -->
+    <!-- <div
         class="flex justify-center items-center text-base font-semibold text-gray-600"
       >
         <h4 class="text-center">Things I like</h4>
@@ -23,8 +23,8 @@
 
       <div>
         <GoodThings />
-      </div>
-    </div>
+      </div> -->
+    <!-- </div> -->
   </div>
 </template>
 

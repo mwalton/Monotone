@@ -4,8 +4,8 @@
       v-model="searchQuery"
       type="search"
       autocomplete="off"
-      placeholder="Search posts"
-      class="block w-full pl-10 pr-3 py-2 truncate leading-5 placeholder-gray-500 border border-gray-500 text-gray-700 focus:border-gray-300 rounded-full focus:outline-none focus:bg-white bg-white"
+      placeholder="Search notes"
+      class="w-full bg-gray-300 text-gray-900 mt-2 p-3 rounded-lg focus:outline-none"
     />
     <ul
       v-if="posts.length"
@@ -26,21 +26,21 @@
 export default {
   data() {
     return {
-      searchQuery: '',
+      searchQuery: "",
       posts: []
-    }
+    };
   },
   watch: {
     async searchQuery(searchQuery) {
       if (!searchQuery) {
-        this.posts = []
-        return
+        this.posts = [];
+        return;
       }
       this.posts = await this.$content("blog")
         .limit(6)
         .search(searchQuery)
-        .fetch()
+        .fetch();
     }
   }
-}
+};
 </script>

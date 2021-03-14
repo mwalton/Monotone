@@ -21,6 +21,9 @@
     <nuxt-link class="social-link hover:text-primary" to="blog">
       <i class="bx bxs-pencil"></i> Notes
     </nuxt-link>
+    <nuxt-link class="social-link hover:text-primary" to="">
+      <i class="bx bx-align-left"></i> CV
+    </nuxt-link>
   </div>
 </template>
 

@@ -7,7 +7,7 @@
             <div>
               <img
                 src="~/assets/logo_emjcoffee.png"
-                class="object-scale-down w-24 h-full"
+                class="object-contain w-32 h-full"
                 alt="Mike Walton"
               />
             </div>
@@ -70,14 +70,19 @@
     <div :class="[isOpen ? '' : 'hidden', 'md:hidden']">
       <div class="px-2 pt-2 pb-3 sm:px-3 bg-primary">
         <nuxt-link
+          class="mobile-link focus:outline-none hover:text-gray-500"
+          to="/"
+          >Home</nuxt-link
+        >
+        <nuxt-link
           to="portfolio"
           class="mobile-link focus:outline-none hover:text-gray-500"
-          >Projects
+          >Publications
         </nuxt-link>
         <nuxt-link
           to="blog"
           class="mt-1 mobile-link focus:outline-none hover:text-gray-500"
-          >Blog
+          >Notes
         </nuxt-link>
         <nuxt-link
           to="about"
@@ -89,12 +94,6 @@
           class="mt-1 mobile-link focus:outline-none hover:text-gray-500"
         >
           Contact</nuxt-link
-        >
-        <nuxt-link
-          to="credits"
-          class="mt-1 mobile-link focus:outline-none hover:text-gray-500"
-        >
-          Credits</nuxt-link
         >
       </div>
     </div>

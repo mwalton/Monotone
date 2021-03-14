@@ -1,31 +1,45 @@
 <template>
-  <div class="wrapper text-center">
-      <a class="social-link hover:text-primary" href="#"  aria-label="Github">
-        <i class='bx bxl-github'></i>
+  <div class="wrapper-small text-left">
+    <div class="text-5xl text-gray-700 space-x-8">
+      <a
+        class="hover:text-primary"
+        href="https://github.com/mwalton"
+        target="_blank"
+        aria-label="Github"
+      >
+        <i class="bx bxl-github"></i>
       </a>
 
-      <a class="social-link hover:text-primary" href="#"  aria-label="Twitter">
-        <i class='bx bxl-twitter'></i>
+      <a
+        class="hover:text-primary"
+        href="https://gitstalk.netlify.app/mwalton"
+        target="_blank"
+        aria-label="Gitstalk"
+      >
+        <b>👀</b>
       </a>
 
-      <a class="social-link hover:text-primary" href="#" aria-label="Instagram">
-        <i class='bx bxl-instagram-alt'></i>
+      <a
+        class="hover:text-primary"
+        href="https://twitter.com/walton_m"
+        target="_blank"
+        aria-label="Twitter"
+      >
+        <i class="bx bxl-twitter"></i>
       </a>
 
-      <a class="social-link hover:text-primary" href="#"  aria-label="LinkedIn">
-        <i class='bx bxl-linkedin-square'></i>
+      <a
+        class="hover:text-primary"
+        href="https://www.instagram.com/myke_walton/"
+        target="_blank"
+        aria-label="Instagram"
+      >
+        <i class="bx bxl-instagram-alt"></i>
       </a>
+    </div>
   </div>
 </template>
 
 <script>
-export default {
-
-}
+export default {};
 </script>
-
-<style>
-    .social-link{
-        @apply mx-3 text-2xl text-gray-800;
-    }
-</style>
