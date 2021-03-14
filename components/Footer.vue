@@ -5,6 +5,9 @@
       <div>
         <Social />
       </div>
+      <nuxt-link class="nav-link hover:text-primary" to="credits"
+        >Credits</nuxt-link
+      >
       <div>
         <img
           src="~/assets/nothing_unusual.svg"

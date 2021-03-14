@@ -1,11 +1,11 @@
 <template>
   <div class="wrapper-small">
-    <nuxt-link to="/blog">
+    <!-- <nuxt-link to="/blog">
       <h1 class="text-center mt-2 border-b-2 pb-3 text-gray-700">
         <span class="text-primary text-xl font-serif">{τhϵorγ}</span> &
         <span class="font-mono">praxis( )</span>
       </h1>
-    </nuxt-link>
+    </nuxt-link> -->
     <!-- <div class="text-center mt-2 border-b-2 pb-3">
       <h3 class="text-xl md:text-2xl lg:text-3xl text-gray-700 font-semibold">Welcome to my blog.</h3>
     </div> -->

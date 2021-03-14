@@ -2,7 +2,7 @@
   <div class="wrapper-small md:px-10">
     <div class="header mt-5">
       <Hero />
-      <Social />
+      <MeDoThings />
     </div>
 
     <div class="pt-64">
@@ -25,13 +25,15 @@ import Hero from "../components/Hero.vue";
 import Social from "../components/Social.vue";
 import Projects from "../components/Projects.vue";
 import GoodThings from "../components/GoodThings.vue";
+import MeDoThings from "../components/MeDoThings.vue";
 
 export default {
   components: {
     Hero,
     Social,
     Projects,
-    GoodThings
+    GoodThings,
+    MeDoThings
   },
   head() {
     return {

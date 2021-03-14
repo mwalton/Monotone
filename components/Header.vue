@@ -1,12 +1,12 @@
 <template>
   <div>
-    <nav class="wrapper py-4 border-b-2">
+    <nav class="wrapper py-4 border-b-2 max-w-screen-xl">
       <div class="px-8 flex justify-between items-center">
         <div class="logo">
           <nuxt-link to="/">
             <div>
               <img
-                src="~/assets/logo_sm_dg.png"
+                src="~/assets/logo_emjcoffee.png"
                 class="object-scale-down w-24 h-full"
                 alt="Mike Walton"
               />
@@ -15,20 +15,18 @@
         </div>
 
         <div class="hidden md:block">
+          <nuxt-link class="nav-link hover:text-primary" to="/">Home</nuxt-link>
           <nuxt-link class="nav-link hover:text-primary" to="portfolio"
-            >Portfolio</nuxt-link
+            >Publications</nuxt-link
           >
           <nuxt-link class="nav-link hover:text-primary" to="blog"
-            >Blog</nuxt-link
+            >Notes</nuxt-link
           >
           <nuxt-link class="nav-link hover:text-primary" to="about"
             >About</nuxt-link
           >
           <nuxt-link class="nav-link hover:text-primary" to="contact"
             >Contact</nuxt-link
-          >
-          <nuxt-link class="nav-link hover:text-primary" to="credits"
-            >Credits</nuxt-link
           >
         </div>
 
