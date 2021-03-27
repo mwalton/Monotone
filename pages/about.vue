@@ -13,23 +13,11 @@
       aperiam magnam blanditiis. At ratione facere rerum officia veniam ipsa
       repudiandae numquam temporibus quo ipsam.
     </p>
-    <!-- <div class="mt-16"> -->
-    <!-- <div
-        class="flex justify-center items-center text-base font-semibold text-gray-600"
-      >
-        <h4 class="text-center">Things I like</h4>
-        <i class="bx bx-chevrons-down ml-1 mt-1"></i>
-      </div>
-
-      <div>
-        <GoodThings />
-      </div> -->
-    <!-- </div> -->
   </div>
 </template>
 
 <script>
-export default {};
+  export default {};
 </script>
 
 <style></style>

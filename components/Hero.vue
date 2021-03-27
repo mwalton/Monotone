@@ -10,7 +10,7 @@
     </div>
 
     <h4 class="text-4xl md:text-4xl lg:text-4xl font-semibold text-gray-800">
-      Michael Walton
+      Mike Walton
     </h4>
     <h3 class="text-lg lg:text-xl text-gray-800">
       PhD Student @ CTU AI Center
@@ -24,7 +24,7 @@
 </template>
 
 <script>
-export default {};
+  export default {};
 </script>
 
 <style></style>

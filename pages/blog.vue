@@ -48,26 +48,26 @@
 </template>
 
 <script>
-import Search from "../components/Search.vue";
-export default {
-  components: {
-    Search
-  },
-  methods: {
-    formatDate(date) {
-      const options = { year: "numeric", month: "long", day: "numeric" };
-      return new Date(date).toLocaleDateString("en", options);
+  import Search from "../components/Search.vue";
+  export default {
+    components: {
+      Search
+    },
+    methods: {
+      formatDate(date) {
+        const options = { year: "numeric", month: "long", day: "numeric" };
+        return new Date(date).toLocaleDateString("en", options);
+      }
+    },
+
+    async asyncData({ $content }) {
+      const posts = await $content("blog").fetch();
+
+      return {
+        posts
+      };
     }
-  },
-
-  async asyncData({ $content }) {
-    const posts = await $content("blog").fetch();
-
-    return {
-      posts
-    };
-  }
-};
+  };
 </script>
 
 <style></style>

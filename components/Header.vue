@@ -25,9 +25,6 @@
           <nuxt-link class="nav-link hover:text-primary" to="about"
             >About</nuxt-link
           >
-          <nuxt-link class="nav-link hover:text-primary" to="contact"
-            >Contact</nuxt-link
-          >
         </div>
 
         <div class="ml-3 flex md:hidden">
@@ -89,41 +86,35 @@
           class="mt-1 mobile-link focus:outline-none hover:text-gray-500"
           >About
         </nuxt-link>
-        <nuxt-link
-          to="contact"
-          class="mt-1 mobile-link focus:outline-none hover:text-gray-500"
-        >
-          Contact</nuxt-link
-        >
       </div>
     </div>
   </div>
 </template>
 
 <script>
-export default {
-  components: {},
+  export default {
+    components: {},
 
-  data() {
-    return {
-      isOpen: false
-    };
-  },
+    data() {
+      return {
+        isOpen: false
+      };
+    },
 
-  methods: {
-    toggle() {
-      this.isOpen = !this.isOpen;
+    methods: {
+      toggle() {
+        this.isOpen = !this.isOpen;
+      }
     }
-  }
-};
+  };
 </script>
 
 <style>
-.mobile-link {
-  @apply block px-3 py-2 text-lg text-gray-900 rounded-md text-white font-medium text-center;
-}
+  .mobile-link {
+    @apply block px-3 py-2 text-lg text-gray-900 rounded-md text-white font-medium text-center;
+  }
 
-.nav-link {
-  @apply ml-12 font-medium text-lg text-gray-700;
-}
+  .nav-link {
+    @apply ml-12 font-medium text-lg text-gray-700;
+  }
 </style>
