@@ -1,6 +1,6 @@
 <template>
   <div class="wrapper-small text-left">
-    <div class="text-5xl text-gray-700 space-x-8">
+    <div class="text-5xl text-gray-700 space-x-2">
       <a
         class="hover:text-primary"
         href="https://github.com/mwalton"

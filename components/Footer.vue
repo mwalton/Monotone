@@ -3,7 +3,7 @@
     <hr class="h-px mt-6 border-gray-300 max-w-screen-xl mx-auto" />
     <div class="md:py-10">
       <div
-        class="flex sm: flex-col lg:flex-row md:flex-col items-center justify-between mt-6"
+        class="flex sm: flex-col lg:flex-row md:flex-col items-center justify-between mt-6 pb-3"
       >
         <div>
           <Social />

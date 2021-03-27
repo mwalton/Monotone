@@ -5,16 +5,12 @@
       <MeDoThings />
     </div>
 
-    <div class="pt-64">
+    <div class="pt-0">
       <div
         class="flex justify-center items-center text-base font-semibold text-gray-600"
       >
-        <h4 class="text-center">Recent Work</h4>
+        <h4 class="text-center">Affiliations</h4>
         <i class="bx bx-chevrons-down ml-1 mt-1"></i>
-      </div>
-
-      <div>
-        <Projects />
       </div>
     </div>
   </div>
