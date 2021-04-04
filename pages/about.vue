@@ -37,7 +37,7 @@
         >naval mine recognition from side-scanning sonar</a
       >, and
       <a
-        href="https://ieeexplore.ieee.org/abstract/document/8232216"
+        href="https://specificdx.com/sepsis"
         class="text-indigo-600 hover:underline"
         target="_blank"
         >identification of bacterial growth in blood samples from metabolic
