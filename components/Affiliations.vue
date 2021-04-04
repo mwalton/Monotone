@@ -7,7 +7,13 @@
     >
       <div class="mt-2">
         <div class="flex flex-col md:flex-row md:space-x-10 items-center">
-          <img :src="post.img" class="rounded-md w-64 md:w-32" alt="derp" />
+          <a
+            class="text-md md:text-2xl text-gray-700 font-bold hover:text-gray-600 hover:underline"
+            target="_blank"
+            :href="post.url"
+          >
+            <img :src="post.img" class="rounded-md w-64 md:w-32" alt="derp" />
+          </a>
           <div>
             <a
               class="text-md md:text-2xl text-gray-700 font-bold hover:text-gray-600 hover:underline"

@@ -10,6 +10,7 @@
         </div>
 
         <img
+          class="object-scale-down w-48"
           src="~/assets/nothing_unusual.svg"
           alt="nothing unusual down here...."
         />
@@ -19,12 +20,12 @@
 </template>
 
 <script>
-import Social from "../components/Social.vue";
-export default {
-  components: {
-    Social
-  }
-};
+  import Social from "../components/Social.vue";
+  export default {
+    components: {
+      Social
+    }
+  };
 </script>
 
 <style></style>

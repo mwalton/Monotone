@@ -1,17 +1,65 @@
 <template>
-  <div class="wrapper-small text-center md:px-10">
-    <p class="text-base md:text-lg font-medium text-gray-700 mt-2">
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam consectetur
-      error dolor cumque temporibus nam commodi. Quisquam cum rem in officiis
-      impedit modi, minima corrupti excepturi fugiat odio obcaecati illo
-      adipisci, dolorem eos voluptas quasi, dolores enim. Eum iusto eaque
-      deleniti quaerat perferendis error quas sit dolore sapiente excepturi
-      tempora consequatur autem accusamus qui facilis voluptas doloribus, ut
-      fuga corrupti neque minima reiciendis? Porro odit optio, animi dolorum
-      dolor error cupiditate voluptate nesciunt molestiae quisquam saepe
-      mollitia eum, facere ullam cum tempora doloremque blanditiis. Porro
-      aperiam magnam blanditiis. At ratione facere rerum officia veniam ipsa
-      repudiandae numquam temporibus quo ipsam.
+  <div class="mt-6 wrapper-small text-center md:px-10">
+    <h4 class="text-4xl md:text-4xl lg:text-4xl font-semibold text-gray-800">
+      Mike Walton
+    </h4>
+    <p class="text-xl text-gray-700 mt-6 text-left">
+      I'm currently a PhD student at Czech Technical University advised by
+      <a
+        href="https://scholar.google.cz/citations?user=wNY724AAAAAJ&hl=en"
+        class="text-indigo-600 hover:underline"
+        target="_blank"
+        >Viliam Lisý</a
+      >. I recently joined the algorithmic game theory group in the CTU
+      <a
+        href="https://www.aic.fel.cvut.cz/"
+        class="text-indigo-600 hover:underline"
+        target="_blank"
+        >Artificial Intelligence Center</a
+      >. I'm interested in principled techniques for Deep Reinforcement Learning
+      in imperfect-information games: fictitious-play, game model learning, RL
+      best response dynamics, no-regret learning etc.
+    </p>
+    <p class="text-xl text-gray-700 mt-6 text-left">
+      Before joining the AIC, I worked for several years in US DoD research and
+      a biotechnology startup. Some of my older work has spanned a variety of
+      topics and machine learning application areas such as
+      <a
+        href="https://ieeexplore.ieee.org/abstract/document/8260738"
+        class="text-indigo-600 hover:underline"
+        target="_blank"
+        >digital radio frequency anomaly detection</a
+      >,
+      <a
+        href="https://ieeexplore.ieee.org/abstract/document/8232216"
+        class="text-indigo-600 hover:underline"
+        target="_blank"
+        >naval mine recognition from side-scanning sonar</a
+      >, and
+      <a
+        href="https://ieeexplore.ieee.org/abstract/document/8232216"
+        class="text-indigo-600 hover:underline"
+        target="_blank"
+        >identification of bacterial growth in blood samples from metabolic
+        byproducts</a
+      >.
+    </p>
+
+    <p class="text-xl text-gray-700 mt-6 text-left">
+      You can contact me at
+      <a
+        href="mailto: waltomic@fel.cvut.cz"
+        class="text-indigo-600 hover:underline"
+        target="_blank"
+        >waltomic@fel.cvut.cz</a
+      >
+      or follow me
+      <a
+        href="https://twitter.com/walton_m"
+        class="text-indigo-600 hover:underline"
+        target="_blank"
+        >@walton_m</a
+      >
     </p>
   </div>
 </template>
