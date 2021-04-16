@@ -4,21 +4,24 @@
       Mike Walton
     </h4>
     <p class="text-xl text-gray-700 mt-6 text-left">
-      I'm currently a PhD student at Czech Technical University advised by
+      I'm a PhD student at Czech Technical University advised by
       <a
         href="https://scholar.google.cz/citations?user=wNY724AAAAAJ&hl=en"
         class="text-indigo-600 hover:underline"
         target="_blank"
         >Viliam Lisý</a
-      >. I recently joined the algorithmic game theory group in the CTU
+      >. I recently joined the algorithmic game theory group at the CTU
       <a
         href="https://www.aic.fel.cvut.cz/"
         class="text-indigo-600 hover:underline"
         target="_blank"
         >Artificial Intelligence Center</a
       >. I'm interested in principled techniques for Deep Reinforcement Learning
-      in imperfect-information games: fictitious-play, game model learning, RL
-      best response dynamics, no-regret learning etc.
+      in imperfect-information games: e.g. policy space response oracles,
+      fictitious-play, best response dynamics, no-regret learning etc.
+      Currently, I'm investigating techniques for jointly learning a model of
+      the "rules of the game" from scratch in an IIG while simultaneously
+      searching for optimal strategies.
     </p>
     <p class="text-xl text-gray-700 mt-6 text-left">
       Before joining the AIC, I worked for several years in US DoD research and

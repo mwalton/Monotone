@@ -91,11 +91,107 @@
         </div>
       </div>
     </div>
+    <div class="project-card md:flex mt-16">
+      <div class="img max-w-lg md:max-w-sm  mx-auto">
+        <img src="~/assets/fig/rf.png" class="rounded-xl" alt="" />
+      </div>
+      <div class="flex flex-col justify-between max-w-lg mx-auto">
+        <div class="txt md:px-5 lg:px-0">
+          <h2 class="text-xl font-semibold text-gray-800">
+            Unsupervised Anomaly Detection for Digital Radio Frequency
+            Transmissions
+          </h2>
+          <h3 class="text-sm lg:text-sm text-gray-500">
+            Michael Walton, Maurice Ayache, Logan Straatemeier, Daniel Gebhardt,
+            Benjamin Migliori • 2017 IEEE International Conference on Machine
+            Learning and Applications
+          </h3>
+          <p class="text-base text-gray-700 my-3">
+            We present a novel method of unsupervised anomaly detection using
+            long-short-term memory mixture density networks (LSTM-MDN), applied
+            to timeseries data of digital radio transmissions. The modern radio
+            frequency (RF) environment is a dynamic and ever-changing complex
+            milieu of signals, environmental effects, unintentional
+            interference, and intentional jamming. A consequence of this complex
+            mix is that RF receivers must become better and better at rejecting
+            anomalous signals in order to recover the transmitted information.
+            However, it is not always possible to know a priori what constitutes
+            a valid signal and what constitutes an anomaly (intentional or
+            otherwise), especially with the adoption of cognitive radio
+            techniques. We show that an LSTM-MDN model is able to rapidly learn
+            the training set and produce probability distribution functions for
+            the expected signal as a function of time. We then demonstrate that
+            the negative log likelihood of an incoming test transmission,
+            conditioned on the training set, provides a metric that allows
+            anomalous signals to be detected and labeled. We demonstrate this
+            method for eight popular modulations and for three different anomaly
+            types. By applying unsupervised learning in the temporal domain, we
+            report a fully-generalizable anomaly detection method that may be
+            applied to signals for which the transmission parameters may be
+            unknown or obscured.
+          </p>
+        </div>
+        <div>
+          <div class="md:px-5 lg:px-0 py-3">
+            <a
+              href="https://ieeexplore.ieee.org/abstract/document/8260738"
+              target="_blank"
+              class="bg-indigo-600 hover:bg-indigo-700 px-3 py-2 text-sm text-gray-200 font-semibold rounded-full"
+              >Paper</a
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="project-card md:flex mt-16">
+      <div class="img max-w-lg md:max-w-sm  mx-auto">
+        <img src="~/assets/fig/mlo.png" class="rounded-xl" alt="" />
+      </div>
+      <div class="flex flex-col justify-between max-w-lg mx-auto">
+        <div class="txt md:px-5 lg:px-0">
+          <h2 class="text-xl font-semibold text-gray-800">
+            Hunting for Naval Mines with Deep Neural Networks
+          </h2>
+          <h3 class="text-sm lg:text-sm text-gray-500">
+            Daniel Gebhardt, Keyur Parikh, Iryna Dzieciuch, Michael Walton, Nhut
+            Anh Vo Hoang • 2017 IEEE OCEANS
+          </h3>
+          <p class="text-base text-gray-700 my-3">
+            Explosive naval mines pose a threat to ocean and sea faring vessels,
+            both military and civilian. This work applies deep neural network
+            (DNN) methods to the problem of detecting minelike objects (MLO) on
+            the seafloor in side-scan sonar imagery. We explored how the DNN
+            depth, memory requirements, calculation requirements, and training
+            data distribution affect detection efficacy. A visualization
+            technique (class activation map) was incorporated that aids a user
+            in interpreting the model’s behavior. We found that modest DNN model
+            sizes yielded better accuracy (98%) than very simple DNN models
+            (93%) and a support vector machine (78%). The largest DNN models
+            achieved less than 1% efficacy increase at a cost of a 17x increase
+            of trainable parameter count and computation requirements. In
+            contrast to DNNs popularized for many-class image recognition tasks,
+            the models for this task require far fewer computational resources
+            (0.3% of parameters), and are suitable for embedded use within an
+            autonomous unmanned underwater vehicle.
+          </p>
+        </div>
+        <div>
+          <div class="md:px-5 lg:px-0 py-3">
+            <a
+              href="https://ieeexplore.ieee.org/abstract/document/8232216"
+              target="_blank"
+              class="bg-indigo-600 hover:bg-indigo-700 px-3 py-2 text-sm text-gray-200 font-semibold rounded-full"
+              >Paper</a
+            >
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
 </template>
 
 <script>
-export default {};
+  export default {};
 </script>
 
 <style></style>
